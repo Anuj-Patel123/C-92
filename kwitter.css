@@ -1,0 +1,36 @@
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+  .left {
+    width:40%;
+    left: 0;
+    background-image: linear-gradient(to bottom, #93d0ff, #3f89bb, #216992, #063249, #01202e);
+  }
+
+  .right {
+    width: 60%;
+    right: 0;
+    background-image: linear-gradient(to bottom, #000000, #424242, #6b6b6b, #afb3b3, #f1f1f1);
+  }
+  .img {
+    width: 150px;
+    border-radius: 50%;
+    background-color: white;
+    zoom:100px;
+  }
+  #text {
+    font-family:Tahoma;
+    color:black;
+  }
+  #hi{
+    border-radius: 5px;
+    border-color: lightgray;
+    text-align: center;
+  }
